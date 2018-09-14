@@ -13,7 +13,7 @@ public class HelloWorldController {
 	@RequestMapping(value="/hello",method=RequestMethod.GET)
 	@ResponseBody
 	public String sayHello(){
-		//hello world
+		//hello world abc
 		return "hello world!";
 	}
 	
